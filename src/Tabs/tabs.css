@@ -1,0 +1,52 @@
+.root {
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.tab-select {
+  display: flex;
+  justify-content: center;
+}
+
+.tab-select__btn {
+  display: block;
+  background: transparent;
+
+  border: none;
+  background: #f1f1f1;
+  padding: 5px 15px
+}
+
+.tab-select__btn:first-child {
+  border-radius: 6px 0 0 6px;
+}
+
+.tab-select__btn:last-child {
+  border-radius: 0 6px 6px 0;
+}
+
+.tab-select__btn--active {
+  background: rgb(6, 52, 255);
+  color: #ffffff;
+}
+
+.tab-select__btn:focus {
+  outline: none;
+}
+
+.content {
+  box-sizing: border-box;
+
+  width: 100%;
+  max-width: 500px;
+  padding: 15px;
+  margin-top: 15px;
+
+
+  background: #f1f1f1;
+  border-radius: 6px;
+}
