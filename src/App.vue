@@ -22,4 +22,3 @@ body, html {
   font-family: 'Arial', sans-serif;
 }
 </style>
-yarn 
